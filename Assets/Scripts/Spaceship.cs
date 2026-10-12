@@ -129,8 +129,9 @@ public class Spaceship : AnimatedEntity
             if(cow.collectionText.Length>0){
                 dialogueText.text = cow.collectionText;
                 textTimer = cow.textDisplayTime;
-                Destroy(cow.gameObject);
+                
             }
+            Destroy(cow.gameObject);
         }
 
     }
